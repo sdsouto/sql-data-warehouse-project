@@ -31,9 +31,9 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 #### Objective
 Develop SQL-based analytics to deliver detailed insights into:
 
-- Customer Behavior
-- Product Performance
-- Sales Trends
+- **Customer Behavior**
+- **Product Performance**
+- **Sales Trends**
 
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.
 
@@ -42,4 +42,4 @@ For more details, refer to <<enter here>>
 
 ### Links to all Materials
 
-- **Project Plan**:  https://www.notion.so/SQL-Data-Warehouse-Project-235522df094980738d1debee054da0ee?source=copy_link
+- [Project Plan](https://www.notion.so/SQL-Data-Warehouse-Project-235522df094980738d1debee054da0ee?source=copy_link)
