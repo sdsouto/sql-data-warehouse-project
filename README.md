@@ -3,6 +3,7 @@ Welcome to my **Data Warehouse & Analytics Project** repository.
 
 This project serves as a detailed demonstration of a robust data warehousing and analytics solution. It covers the entire lifecycle, from the initial construction of the data warehouse to creating practical, actionable insights, all while upholding industry-standard best practices in data engineering and analytics.
 
+___
 ## Project Overview
 This project involves:
 
