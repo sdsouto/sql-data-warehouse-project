@@ -42,4 +42,4 @@ For more details, refer to <<enter here>>
 
 ### Links to all Materials
 
-- [Project Plan](https://www.notion.so/SQL-Data-Warehouse-Project-235522df094980738d1debee054da0ee?source=copy_link)
+- [Project Plan](https://www.notion.so/SQL-Data-Warehouse-Project-235522df094980738d1debee054da0ee?source=copy_link){:target="_blank" rel="noopener"}
