@@ -11,7 +11,7 @@ This document outlines the naming conventions used for schemas, tables, views, c
    - [Gold Rules](#gold-rules)
 3. [Column Naming Conventions](#column-naming-conventions)
    - [Surrogate Keys](#surrogate-keys)
-   - [Technical Columns Sha](https://github.com/sdsouto/sql-data-warehouse-project/edit/main/docs/naming_conventions.md#technical-columns)
+   - [Technical Columns Sha](#technical-columns)
 4. [Stored Procedure](#stored-procedure-naming-conventions)
 ---
 
