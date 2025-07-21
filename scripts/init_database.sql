@@ -1,29 +1,23 @@
 /*
 **************************************************************************************************
-Script:		
-	=============================================================
-	Create Database and Schemas
-	=============================================================
+Script:			Create Database and Schemas
+	
+Description:	This script creates a new database named 'DataWarehouse' after checking if it already exists. 
+                If the database exists, it is dropped and recreated.  Additionally, the script sets up three schemas 
+                within the database: 'bronze', 'silver', and 'gold'.
 
-Description:        
-	This script creates a new database named 'DataWarehouse' after checking if it already exists. 
-	If the database exists, it is dropped and recreated. Additionally, the script sets up three schemas 
-	within the database: 'bronze', 'silver', and 'gold'.
+Create Date:    2025-07-21
 
-Create Date:
-	2025-07-21
-
-Used By:
-	SQL Data Warehouse Project
+Used By:        SQL Data Warehouse Project
 
 Usage:              
 
-WARNING:
-    Running this script will drop the entire 'DataWarehouse' database if it exists. 
-    All data in the database will be permanently deleted. Proceed with caution 
-    and ensure you have proper backups before running this script.
+WARNING:        Running this script will drop the entire 'DataWarehouse' database if it exists. 
+                All data in the database will be permanently deleted. Proceed with caution 
+                and ensure you have proper backups before running this script.
 
-History
+
+History:
 Date(yyyy-mmdd)		Author				Comments
 ------------------- ------------------- ----------------------------------------------------------
 2025-0721			Sharon Souto		Initial Version
