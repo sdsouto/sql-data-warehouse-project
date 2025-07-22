@@ -1,6 +1,6 @@
 /*
 **************************************************************************************************
-Script:			Create Database and Schemas
+Object:			Script to Create Database and Schemas
 	
 Description:	This script creates a new database named 'DataWarehouse' after checking if it already exists. 
                 If the database exists, it is dropped and recreated.  Additionally, the script sets up three schemas 

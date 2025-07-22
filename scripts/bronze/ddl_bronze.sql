@@ -1,6 +1,6 @@
 /*
 **************************************************************************************************
-Script:		    DDL Create Bronze Tables
+Object:		    Script to DDL Create Bronze Tables
 	
 Description:	This script creates tables in the 'bronze' schema, dropping existing tables 
                 if they already exist.

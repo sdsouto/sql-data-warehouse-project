@@ -5,7 +5,7 @@ CREATE OR ALTER PROCEDURE bronze.load_bronze
 AS
 /*
 **************************************************************************************************
-Script:		    Create Stored Procedure to Load Bronze Layer (Source -> Bronze)
+Object:		    Stored Procedure to Load Bronze Layer (Source -> Bronze)
 	
 Description:	This stored procedure loads data into the 'bronze' schema from external CSV files. 
 				It performs the following actions:
