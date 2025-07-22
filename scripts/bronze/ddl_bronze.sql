@@ -1,13 +1,27 @@
 /*
-===============================================================================
-DDL Script: Create Bronze Tables
-===============================================================================
-Script Purpose:
-    This script creates tables in the 'bronze' schema, dropping existing tables 
-    if they already exist.
-	  Run this script to re-define the DDL structure of 'bronze' Tables
-===============================================================================
+**************************************************************************************************
+Script:		    DDL Create Bronze Tables
+	
+Description:	This script creates tables in the 'bronze' schema, dropping existing tables 
+                if they already exist.
+	            Run this script to re-define the DDL structure of 'bronze' tables.
+
+Used By:        SQL Data Warehouse Project
+
+Usage Example:              
+
+WARNING:        Running this script will drop and recreate tables, if exists.
+
+History:
+Date(yyyy-mmdd)		Author				Comments
+------------------- ------------------- ----------------------------------------------------------
+2025-0722			Sharon Souto		Initial Version
+
+**************************************************************************************************
 */
+
+USE DataWarehouse;
+GO
 
 IF OBJECT_ID('bronze.crm_cust_info', 'U') IS NOT NULL
     DROP TABLE bronze.crm_cust_info;

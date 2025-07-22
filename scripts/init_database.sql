@@ -6,11 +6,9 @@ Description:	This script creates a new database named 'DataWarehouse' after chec
                 If the database exists, it is dropped and recreated.  Additionally, the script sets up three schemas 
                 within the database: 'bronze', 'silver', and 'gold'.
 
-Create Date:    2025-07-21
-
 Used By:        SQL Data Warehouse Project
 
-Usage:              
+Usage Example:              
 
 WARNING:        Running this script will drop the entire 'DataWarehouse' database if it exists. 
                 All data in the database will be permanently deleted. Proceed with caution 
