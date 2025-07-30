@@ -24,5 +24,6 @@ FROM silver.crm_cust_info
 SELECT DISTINCT(cst_gndr)
 FROM silver.crm_cust_info
 
+
 select * from silver.crm_cust_info
 
