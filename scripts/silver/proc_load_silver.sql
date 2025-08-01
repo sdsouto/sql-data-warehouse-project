@@ -5,13 +5,13 @@ CREATE OR ALTER PROCEDURE silver.load_silver
 AS
 /*
 **************************************************************************************************
-Object:		    Stored Procedure to Load Silver Layer
+Object:		    Stored Procedure to Load Silver Layer (Bronze -> Silver)
 	
-Description:	This stored procedure loads data into the 'silver' schema from bronze layer. 
+Description:	This stored procedure performs the ETL (Extract, Transform, Load) process to 
+                populate the 'silver' schema tables from the 'bronze' schema.
 				It performs the following actions:
 				- Truncates the silver tables before loading data.
-				- Uses stored procedure to load data from bronze tables to silver tables while 
-                  performing various data transformations.
+				- Inserts transformed and cleansed data from Bronze into Silver tables.
 
 Used By:        SQL Data Warehouse Project
 
