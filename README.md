@@ -66,6 +66,6 @@ These insights empower stakeholders with key business metrics, enabling strategi
 
 - Documentation:
 
-####  **Data Catalog**:  **[Data Dictionary](https://github.com/sdsouto/sql-data-warehouse-project/blob/main/docs/data_catalog.md),**     **[Data Flow (Data Lineage)](https://github.com/sdsouto/sql-data-warehouse-project/blob/main/docs/data_catalog.md)**
+####  **Data Catalog**:  **[Data Dictionary](https://github.com/sdsouto/sql-data-warehouse-project/blob/main/docs/data_catalog.md),**     **[Data Flow (Data Lineage)](https://github.com/sdsouto/sql-data-warehouse-project/blob/main/docs/data_lineage_flow.png)**
 
 ####  **Data Models**: **[Integration Model/Conceptual Data Model](https://github.com/sdsouto/sql-data-warehouse-project/blob/main/docs/data_integration.png),**     **[Logical Data Model (Star Schema)](https://github.com/sdsouto/sql-data-warehouse-project/blob/main/docs/data_model.png)**
