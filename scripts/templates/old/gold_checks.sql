@@ -37,3 +37,40 @@ ORDER BY 1,2
 
 SELECT DISTINCT gender
 FROM gold.dim_customers
+
+--product
+
+
+-- Check Uniqueness in join
+-- Expectation: No Results
+SELECT prd_id, COUNT(*) FROM (
+SELECT 
+    pr.prd_id,
+    pr.cat_id,
+    pr.prd_key,
+    pr.prd_nm,
+    pr.prd_cost,
+    pr.prd_line,
+    pc.cat,
+    pc.subcat,
+    pc.maintenance,
+    pr.prd_start_dt
+FROM silver.crm_prd_info pr
+LEFT JOIN silver.erp_px_cat_g1v2 pc
+ON pr.cat_id = pc.id
+WHERE pr.prd_end_dt IS NULL --Filter out all historical data
+) AS t GROUP BY prd_id --Check uniqueness to prd_id since it is used to join to sales
+HAVING COUNT(*) > 1
+
+SELECT *
+FROM gold.dim_products
+
+-- Foreign Key Integrity (Dimension)
+SELECT * 
+FROM gold.fact_sales sa
+LEFT JOIN gold.dim_customers cu
+ON sa.customer_key = cu.customer_key
+LEFT JOIN gold.dim_products pr
+ON sa.product_key = pr.product_key
+WHERE cu.customer_key IS NULL OR pr.product_key IS NULL
+
