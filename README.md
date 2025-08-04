@@ -12,6 +12,18 @@ This project involves:
 - **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
 - **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
 
+This repository is an excellent resource for anyone interested in building a free or low-cost data warehouse, proving that powerful data solutions are accessible to everyone, including non-profit organizations.
+
+## 🛠️ Important Links & Tools:
+
+Everything is for Free!
+- **[SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-downloads):** Lightweight server for hosting your SQL database.
+- **[SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16):** GUI for managing and interacting with databases.
+- **[Git Repository](https://github.com/):** Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.
+- **[DrawIO](https://www.drawio.com/):** Design data architecture, models, flows, and diagrams.
+- **[Notion](https://www.notion.com/):** Web-based platform that serves as a versatile workspace for note-taking, project management, and collaboration for your project.
+
+---
 ### Building the Data Warehouse (Data Engineering)
 
 #### Objective
