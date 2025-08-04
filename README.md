@@ -49,7 +49,8 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 
 ### BI: Analytics & Reporting (Data Analysis)
 #### Objective
-<<Coming Soon>>
+Coming Soon...
+
 Develop SQL-based analytics to deliver detailed insights into:
 
 - **Customer Behavior**
@@ -62,3 +63,9 @@ These insights empower stakeholders with key business metrics, enabling strategi
 ### Links to all Materials
 
 - [Project Plan](https://www.notion.so/SQL-Data-Warehouse-Project-235522df094980738d1debee054da0ee?source=copy_link)
+
+- Documentation:
+
+####  **Data Catalog**:  **[Data Dictionary](https://github.com/sdsouto/sql-data-warehouse-project/blob/main/docs/data_catalog.md),**     **[Data Flow (Data Lineage)](https://github.com/sdsouto/sql-data-warehouse-project/blob/main/docs/data_catalog.md)**
+
+####  **Data Models**: **[Integration Model/Conceptual Data Model](https://github.com/sdsouto/sql-data-warehouse-project/blob/main/docs/data_integration.png),**     **[Logical Data Model (Star Schema)](https://github.com/sdsouto/sql-data-warehouse-project/blob/main/docs/data_model.png)**
