@@ -3,7 +3,7 @@ Welcome to my **Data Warehouse & Analytics Project** repository.
 
 This project serves as a detailed demonstration of a robust data warehousing and analytics solution. It covers the entire lifecycle, from the initial construction of the data warehouse to creating practical, actionable insights, all while upholding industry-standard best practices in data engineering and analytics.
 
-This repository is an excellent resource for anyone interested in building a free or low-cost data warehouse, proving that powerful data solutions are accessible to everyone, including non-profit organizations.
+This repository is an excellent resource for anyone interested in building a free or low-cost data warehouse, **proving that powerful data solutions are accessible to everyone, including non-profit organizations**.
 ___
 ## 📖 Project Overview
 This project involves:
