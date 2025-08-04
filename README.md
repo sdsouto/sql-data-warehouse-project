@@ -4,7 +4,7 @@ Welcome to my **Data Warehouse & Analytics Project** repository.
 This project serves as a detailed demonstration of a robust data warehousing and analytics solution. It covers the entire lifecycle, from the initial construction of the data warehouse to creating practical, actionable insights, all while upholding industry-standard best practices in data engineering and analytics.
 
 ___
-## Project Overview
+## 📖 Project Overview
 This project involves:
 
 - **Data Architecture**: Designing a modern data warehouse structure that utilizes the Bronze, Silver, and Gold layers of a medallion architecture.
@@ -14,7 +14,7 @@ This project involves:
 
 This repository is an excellent resource for anyone interested in building a free or low-cost data warehouse, proving that powerful data solutions are accessible to everyone, including non-profit organizations.
 
-## 🛠️ Important Links & Tools:
+## 🛠️ Links & Tools:
 
 Everything is for Free!
 - **[SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-downloads):** Lightweight server for hosting your SQL database.
@@ -23,9 +23,19 @@ Everything is for Free!
 - **[DrawIO](https://www.drawio.com/):** Design data architecture, models, flows, and diagrams.
 - **[Notion](https://www.notion.com/):** Web-based platform that serves as a versatile workspace for note-taking, project management, and collaboration for your project.
 
----
-### Building the Data Warehouse (Data Engineering)
 
+---
+### Data Architecture
+
+The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
+![Data Architecture](docs/data_architecture.png)
+
+1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
+2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
+3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
+
+
+### Building the Data Warehouse (Data Engineering)
 #### Objective
 Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
 
@@ -39,8 +49,8 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 
 
 ### BI: Analytics & Reporting (Data Analysis)
-
 #### Objective
+<<Coming Soon>>
 Develop SQL-based analytics to deliver detailed insights into:
 
 - **Customer Behavior**
@@ -49,9 +59,7 @@ Develop SQL-based analytics to deliver detailed insights into:
 
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.
 
-For more details, refer to <<enter here>>
-
-
+---
 ### Links to all Materials
 
 - [Project Plan](https://www.notion.so/SQL-Data-Warehouse-Project-235522df094980738d1debee054da0ee?source=copy_link)
