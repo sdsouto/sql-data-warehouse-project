@@ -3,6 +3,7 @@ Welcome to my **Data Warehouse & Analytics Project** repository.
 
 This project serves as a detailed demonstration of a robust data warehousing and analytics solution. It covers the entire lifecycle, from the initial construction of the data warehouse to creating practical, actionable insights, all while upholding industry-standard best practices in data engineering and analytics.
 
+This repository is an excellent resource for anyone interested in building a free or low-cost data warehouse, proving that powerful data solutions are accessible to everyone, including non-profit organizations.
 ___
 ## 📖 Project Overview
 This project involves:
@@ -12,7 +13,6 @@ This project involves:
 - **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
 - **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
 
-This repository is an excellent resource for anyone interested in building a free or low-cost data warehouse, proving that powerful data solutions are accessible to everyone, including non-profit organizations.
 
 ## 🛠️ Links & Tools:
 
@@ -22,7 +22,6 @@ Everything is for Free!
 - **[Git Repository](https://github.com/):** Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.
 - **[DrawIO](https://www.drawio.com/):** Design data architecture, models, flows, and diagrams.
 - **[Notion](https://www.notion.com/):** Web-based platform that serves as a versatile workspace for note-taking, project management, and collaboration for your project.
-
 
 ---
 ### Data Architecture
